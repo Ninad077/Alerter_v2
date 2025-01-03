@@ -8,12 +8,30 @@ import streamlit as st
 import pyperclip
 from app import send_message_via_webhook, Webhook_urls
 
+st.markdown(
+        """
+        <style>
+        div[data-testid="stSidebarHeader"] > img, div[data-testid="collapsedControl"] > img {
+            height: 6rem; /* Increased height */
+            width: 20rem; /* Adjust width proportionally */
+        }
+        
+        div[data-testid="stSidebarHeader"], div[data-testid="stSidebarHeader"] > *,
+        div[data-testid="collapsedControl"], div[data-testid="collapsedControl"] > * {
+            display: flex;
+            align-items: center;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
+st.logo("alerter_logo.jpg")
 
 
 html_title = """
 <style>
     .fixed-title {
-        font-size: 50px;
+        font-size: 40px;
         color: #ffffff;
         background-image: linear-gradient(to right, #ff0000, #ffdab9);
         background-clip: text;
