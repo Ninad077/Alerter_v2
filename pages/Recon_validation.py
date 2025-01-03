@@ -6,7 +6,7 @@ import json
 import requests
 import streamlit as st
 import pyperclip
-from pages.Slack import send_message_via_webhook, Webhook_urls
+from app import send_message_via_webhook, Webhook_urls
 
 
 
