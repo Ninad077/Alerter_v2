@@ -63,13 +63,13 @@ st.markdown(
         """,
         unsafe_allow_html=True
     )
-st.logo("alerter_logo.jpg")
+st.logo("alerter_logo2.jpg")
 
 
 html_title = """
 <style>
     .fixed-title {
-        font-size: 50px;
+        font-size: 40px;
         color: #ffffff;
         background-image: linear-gradient(to right, #ff0000, #ffdab9);
         background-clip: text;
