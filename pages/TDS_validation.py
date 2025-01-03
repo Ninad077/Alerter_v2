@@ -309,7 +309,6 @@ if uploaded_credentials is not None:
         else:
             df = pd.read_csv(file_path)
 
-        st.dataframe(df)  # Display the file contents
 
         button_styles = """
                     <style>
