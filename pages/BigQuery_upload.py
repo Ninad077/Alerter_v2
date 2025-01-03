@@ -77,7 +77,7 @@ st.markdown(
         """,
         unsafe_allow_html=True
     )
-st.logo("alerter_logo.jpg")
+st.logo("alerter_logo2.jpg")
 
 html_title = """
 <style>
