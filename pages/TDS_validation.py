@@ -295,7 +295,7 @@ if uploaded_credentials is not None:
     st.markdown(html_subject, unsafe_allow_html=True)
 
     # Proceed with uploading files to Google Drive or BigQuery
-    uploaded_file = st.file_uploader("Upload a CSV or Excel file", type=["csv", "xlsx"])
+    uploaded_file = st.file_uploader("", type=["csv", "xlsx"])
 
     if uploaded_file is not None:
         # Save the uploaded file temporarily
